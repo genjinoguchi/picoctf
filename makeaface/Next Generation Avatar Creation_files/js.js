@@ -27,7 +27,7 @@ function loadImage() {
   canvas.height = 256;
   var context = canvas.getContext('2d');
   var image = new Image();
-  image.src = "index.cgi?Head="+head.value+".bmp&Hair="+hair.value+".bmp&Nose="+nose.value+".bmp&Mouth="+mouth.value+".bmp&Eyes="+eyes.value+".bmp";
+  image.src = "index.cgi?Head="+(head.value+5)+".bmp&Hair="+hair.value+".bmp&Nose="+nose.value+".bmp&Mouth="+mouth.value+".bmp&Eyes="+eyes.value+".bmp";
   loading.play();
   var i = setInterval(draw,20,loading,context);
 
