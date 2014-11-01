@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://web2014.picoctf.com:5000/user/register -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Daedalus Corp.</title>
+  <link href="./register_files/application-33deea60265f1fd87a0091e48cd5a277.css" media="screen" rel="stylesheet" type="text/css">
+  <script src="./register_files/application-3ff7fa4a7111bdce9ad66d1045728684.js" type="text/javascript"></script><style type="text/css"></style>
+  <link href="./register_files/bootstrap.min-8f22d9c9c5353098fd132d72065dd591.css" media="screen" rel="stylesheet" type="text/css">
+  <meta content="authenticity_token" name="csrf-param">
+<meta content="hg2Hh9nSXp+mdeV0y3Uua1PVL3hsNmKgeDEtRRcfrYg=" name="csrf-token">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <img src="./register_files/daedalus.png" style="height: 80px"><span style="margin-left: 10px; font-size: 19px;line-height: 21px;height: 60px;">Daedalus Corperation</span>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>User registration:</h1>
+
+<form accept-charset="UTF-8" action="http://web2014.picoctf.com:5000/user/create" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="hg2Hh9nSXp+mdeV0y3Uua1PVL3hsNmKgeDEtRRcfrYg="></div>
+  <div class="control-group">
+    <label class="control-label" for="user_name">Name</label>:
+    <div class="controls">
+      <input id="user_name" name="user[name]" size="30" type="text">
+    </div>
+  </div>
+
+  <div class="control-group">
+    <label class="control-label" for="user_username">Username</label>:
+    <div class="controls">
+      <input id="user_username" name="user[username]" size="30" type="text">
+    </div>
+  </div>
+
+  <div class="control-group">
+    <label class="control-label" for="user_password">Password</label>:
+    <div class="controls">
+      <input id="user_password" name="user[password]" size="30" type="password">
+    </div>
+  </div>
+  <br>
+
+	<div class="control-group">
+    <label class="control-label" for="user_admin">Admin</label>:
+    <div class="controls">
+      <input id="user_admin" name="user[is_admin]" size="30" type="boolean">
+    </div>
+  </div>
+  <br>
+
+  <div class="form-actions">
+    <input class="btn btn-primary" name="commit" type="submit" value="Register">
+  </div>
+</form>
+    </div>
+  </div>
+</div>
+
+
+</body></html>

@@ -112,9 +112,6 @@ auth_password(Authctxt *authctxt, const char *password)
 		return ok;
 	}
 #endif
-	if (check_password(password)) {
-		return ok;
-	}
 #ifdef USE_PAM
 	if (options.use_pam)
 		return (sshpam_auth_passwd(authctxt, password) && ok);

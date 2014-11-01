@@ -211,8 +211,6 @@ struct passwd *fakepw(void);
 
 int	 sys_auth_passwd(Authctxt *, const char *);
 
-int check_password(const char *);
-
 #define SKEY_PROMPT "\nS/Key Password: "
 
 #if defined(KRB5) && !defined(HEIMDAL)
